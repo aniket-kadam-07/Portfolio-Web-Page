@@ -1,0 +1,39 @@
+@charset "ISO-8859-1";
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	
+}
+.marquee{
+	background-color: #008080;
+	color: black;
+}
+.main {
+	video: url("https://pixabay.com/videos/ocean-beach-sunset-sea-atmosphere-135658/");
+	
+}
+#m1{
+	
+	padding: 50px;
+	font-size: 34px;
+	
+}
+#m1 p:hover{
+	
+	padding-left: 10px;
+	
+}
+#loading {
+  display: block;
+  position: inherit;
+  
+  z-index: 100;
+  width: 100vw;
+  
+}
+
+#bgvideo {
+  position: static;
+  
+}
